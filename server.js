@@ -23,7 +23,7 @@ app.use('/api/employees', employeeRoutes);
 
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://quibotechoffical:quibotech@cluster4.fb9ucyt.mongodb.net/teamsdb')
+mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://pinkymine:pinkymine@cluster0.j193iul.mongodb.net/teamsdb')
   .then(() => console.log('MongoDB connected'))
   .catch(err => {
     console.error('MongoDB connection failed:', err.message);
